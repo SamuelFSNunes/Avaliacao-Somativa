@@ -23,33 +23,64 @@ header{
   display: block;
   position: fixed;
   width: 100%;
-  backdrop-filter: blur(20px);
   margin-top: -10vh;
+  backdrop-filter: blur(20px);
+}
+nav{
+  background-color: var(--topBottomColor);
+  height: 13vh;
+  width: 100%;
+}
+.myLogo{
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.checkbtn{
+  font-size: 30px;
+  color: var(--mainColor);
+  float: right;
+  line-height: 70px;
+  margin-left: 0px;
+  cursor: pointer;
+  display: block;
+  margin-right: 20px;
 }
 ul{
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  align-items: center;
+  position: fixed;
+  width: 100%;
+  width: 100vh;
+  height: 100vh;
+  color: var(--mainColor);
   background-color: var(--topBottomColor);
-  opacity: .5;
-  height: 10vh;
-  transition: all ease .7s;
-}
-ul:hover{
-  opacity: 1;
+  top: 10vh;
+  right: -100%;
+  text-align: center;
+  transition: all .5s;
   backdrop-filter: blur(20px);
 }
-li{
-  list-style: none;
-  font-weight: 500;
-  font-size: 15px;
-  transition: all ease-in-out 0.5s;
-  color: var(--topBottomTextColor);
-}
-li:hover{
-  font-size: 17px;
+nav ul li{
+  display: block;
   cursor: pointer;
+  padding: 30px 0;
+  font-weight: 500;
+  justify-content: space-around;
+}
+nav ul li a{
+  text-decoration: none;
+  color: var(--mainColor);
+}
+li a:hover{
+  background: var(--mainColor);
+  color: var(--mainTextColor);
+  padding: 20px 30%;
+  transition: ease .5s;
+}
+#check{
+  display:none;
+}
+#check:checked ~ ul{
+  right: 0;
 }
 .progress-container {
   width: 100%;
@@ -71,12 +102,13 @@ li:hover{
 }
 .img1{
   width: 400px; height: 400px;
-  margin-left: 3vw; margin-top: 5vh;
+  margin-left: 3vw; margin-top: 10vh;
 }
 .txtInicio{
   display: flex; flex-direction: column;
   margin-left: 10vw;
   margin-right: 5vw;
+  margin-top: 10vh;
   gap: 20px;
   text-align: justify;
   align-self: center;
@@ -297,4 +329,27 @@ b{
   color: var(--topBottomColor);
   font-size: larger;
   font-weight: 600;
+}
+.container-redes{
+  display: flex; flex-direction: column;
+  margin-top: 20vh;
+}
+.title-redes p{
+  display: flex;
+  justify-content: center;
+  color: var(--topBottomColor);
+  font-size: xx-large;
+  font-weight: 700;
+  font-style: oblique;
+}
+.icons-redes{
+  display: flex;
+  justify-content: space-around;
+}
+.invert{
+  filter: invert();
+}
+.invert , .pics-redes{
+  width: 300px;
+  margin-top: 10vh;
 }
