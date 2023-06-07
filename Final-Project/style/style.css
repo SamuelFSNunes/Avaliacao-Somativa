@@ -168,7 +168,7 @@ li a:hover{
 }
 .linguagem div{
   padding: 20px;
-  height: 400px;
+  height: 500px;
 }
 .html-css{
   display: flex; flex-direction: column;
@@ -208,10 +208,26 @@ b{
   justify-content: center;
   color: var(--topBottomColor);
 }
+.js-logic-gifs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scripts-img{
+  width: 500px;
+}
 .java-poo{
   display: flex; flex-direction: column;
   text-align: justify;
   justify-content: space-around;
+}
+.java-poo-gifs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.java-gif{
+  width: 500px;
 }
 .title-java-poo{
   display: flex;
