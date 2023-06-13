@@ -17,12 +17,12 @@
         <i class="fas fa-bars"></i>
       </label>
       <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Linguagem de Programação</a></li>
-        <li><a href="#">Banco de Dados</a></li>
-        <li><a href="#">Automação Industrial</a></li>
-        <li><a href="#">Redes de Computadores</a></li>
-        <li><a href="#">Ciência de Dados</a></li>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#lp">Linguagem de Programação</a></li>
+        <li><a href="#bd">Banco de Dados</a></li>
+        <li><a href="#ai">Automação Industrial</a></li>
+        <li><a href="#redes">Redes de Computadores</a></li>
+        <li><a href="#cd">Ciência de Dados</a></li>
       </ul>
     </nav>
     <div class="progress-container">
@@ -32,6 +32,7 @@
 
   <main>
     <section>
+      <div id="inicio"></div>
       <div class="inicio">
         <img class="img1"src="/imgs/fotoPessoal.jpeg">
         <div class="txtInicio">
@@ -52,7 +53,8 @@
           </div>
       </div>
     </section>
-    <section> 
+    <section>
+      <div class="lp" id="lp"></div>
       <div class="linguagem-prog">
         <p class="title-linguagem-prog">Linguagem de Programação</p>
         <div class="linguagem-prog-pics">
@@ -119,6 +121,7 @@
       </div>
     </section>
     <section>
+      <div id="bd"></div>
       <p class="title-banco-dados" >Banco de Dados</p>
       <div class="banco-dados-main">
         <div class="img-banco-dados"></div>
@@ -142,6 +145,7 @@
       <br><br><br><br>
     </section>
     <section>
+      <div id="ai"></div>
       <p class="title-automacao">Automação Industrial</p>
       <div class="container-imgs-aut">
         <img class="imgs-aut" src="/imgs/automacao-industrial/arduino.png">
@@ -183,12 +187,175 @@
       </div>
     </section>
     <section>
+      <div id="redes"></div>
       <div class="container-redes">
         <div class="title-redes"><p>REDES DE COMPUTADORES</p></div>
         <div class="icons-redes">
           <img class="invert" src="/imgs/redes/redes.png" alt="">
           <img class="pics-redes" src="/imgs/redes/redes de comp.png" alt="">
           <img class="invert" src="/imgs/redes/nuvem.png" alt="">
+        </div>
+        <div class="content-redes">
+          <p>
+            &emsp;&emsp;Em introdução a redes de computadores fomos apresentados a os 5 tipos de redes, sendo elas PAN (Personal Area Network), CAN (Controller Area Network), LAN (Local Area Network), MAN (Metropolitan Area Network) e WAN (Wide Area Network).
+          </p>
+          <p>
+            &emsp;&emsp;Cada rede de computadores possui uma configuração que pode ser diferente uma da outra, esse tipo de configuração assumida por uma rede e denominada de topologia. Sendo elas, dividas em física e lógica, respectivamente é como os dispositivos se conectam e como os dados se comportam pelas redes. Dentre os tipos de diagramas de redes apresentadas estão listadas a barramento, estrela, mista, anel, duplo anel, malha, estrela estendida e árvore ou hierárquica.
+          </p>
+          <p>
+            &emsp;&emsp; Um tráfego de dados passa por 7 camadas no modelo OSI, as transmissões binárias é a primeira camada, chamada de física. 
+            Os endereçamentos MEC também chamados de endereçamentos físicos estão na segunda camada, o enlace. A determinação de pacotes e endereçamento lógico, o IP ocorrem na terceira camada denominada de enlace. 
+            Na quarta camada, a camada de transpotes ocorre o envio e recebimento de dados por protocolos de transporte, sendo eles TCP, UDP, SCTP, SSL e TLS.
+            A camada para estabelecer a intercomunicação entre dois computadores é a quinta, denominada de sessão.
+            A camada de apresentação é responsável por comprimir e compilar os dados transmitidos pela rede, é nela que acontece a criptografia e leitura dos códigos HTML.
+            A sétima e última camada, também conhecida como camada de aplicação é onde o cliente/usuário possui acesso, sendo assim é onde ocorrerá todos os "prints" na tela.
+          </p>
+          <p>
+            &emsp;&emsp;No modelo TCP/IP os dados passam pelo mesmo tratamento porém a camada de aplicação engloba três camadas em uma única, sendo elas aplicação, apresentação e sessão. Além disso, a camada física e de enlace estão agrupadas em uma única camada chamada de "acesso a rede", transporte e internet se mantém sem alterações.
+          </p>
+        </div>
+        <div class="camadas-imgs">
+          <img class="camadas-img" src="/imgs/redes/TCP-OSI.png">
+          <img class="camadas-img" src="/imgs/redes/protocolo-osi.png">
+        </div>
+        <div class="container-redes-2">
+          <div class="content-redes-2">
+            <p>
+              &emsp;&emsp;Nossos desafios durante essa etapa do curso foi realizar um trabalho divido para cada grupo de 6 pessoas, sobre assunto diferentes. Meu grupo realizou um trabalho sobre os protocoplos de transporte TCP (Transmission Control Protocol), UDP (User Datagram Protocol), SCTP (Stream Control Transmission Protocol) e DCCP (Datagram Congestion Control Protocol).
+            </p>
+            <p>
+              &emsp;&emsp;Além disso, precisamos construir dentro do Software Cisco Packet Tracer dois projetos, o primeiro consistia em uma rede no cazaquistão que se comunicasse com uma outra rede no zimbabue.
+            </p>
+            <p>
+              &emsp;&emsp;No segundo desafio precisamos criar duas redes de computadores para salas de aula, onde cada rede deveria comportar 40 computadores e ser o mais otimizada possível, após isso como último desafio realizamos um projeto onde criamos e configuramos uma rede de computadores LAN que se comunicava diretamente com um servidor WAN.
+            </p>
+          </div>
+          <div class="content2-img">
+            <img class="cisco-img" src="/imgs/redes/cisco-project-2.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="cd"></div>
+      <div class="container-cd">
+        <div class="title-cd"><p>CIÊNCIA DE DADOS</p></div>
+        <div class="imgs-cd">
+          <img class="invert" src="/imgs/ciencia-dados/data-science-2.png">
+          <img class="pic-cd" src="/imgs/ciencia-dados/data-science.png">
+          <img class="invert" src="/imgs/ciencia-dados/neural.png">
+        </div>
+        <div class="container-mat-desc">
+          <div class="mat-desc">
+            <p class="titles-cd">ESTATÍSTICA</p>
+            <p>
+              &emsp;&emsp;Em ciência de dados nosso primeiro contato foi com a matemática discreta e seus príncipios, sendo eles, estatistica que é a ciência que realiza o estudos dedos númericos ou não. Pode-se dizer que seu objetivo é apresentar e descrever as informações de forma que fique de fácil compreensão.
+            </p>
+            <p>
+              &emsp;&emsp;A estatistica trabalha com dados que podem ser obtidos tanto de uma população, quanto de uma amostra. Eles são dívidos em finitos e infinitos.
+            </p>
+            <p>
+              &emsp;&emsp;População: conjunto de elementos que tem pelo menos uma característica em comum. Esta característica deve delimitar corretamente quais são os elementos da população que podem ser animados ou inanimados.
+            </p>
+            <p>
+              &emsp;&emsp;Amostragem: é a seleção de um subconjunto representativo menor da população. A escolha dos elementos da amostra depende do conhecimento da população e dos recursos disponíveis. Estatística inferencial lida com a metodologia de amostragem para fazer inferências sobre a população com base na análise da amostra.
+            </p>
+          </div>
+          <div class="mat-desc">
+            <p class="titles-cd">VARIÁVEL</p>
+            <p>
+              &emsp;&emsp;O que faremos depois da coleta desses dados, podemos observa-los ou medi-los? Devido a esses questionamentos chegamos em variavel.
+            </p>
+            <p>
+              &emsp;&emsp;Variável: é a característica que vai ser observada, medida ou contada nos elementos da população ou da amostra e que pode variar, ou seja, assumir um valor diferente de elemento para elemento. Não basta apenas identifica-lá é necessário fazer a distinção entre seus tipos.
+            </p>
+            <p>
+              &emsp;&emsp;Variável qualitativa: é uma variável que assume como possíveis valores, atributos ou
+              qualidades. Também são denominadas variáveis categóricas.
+            </p>
+            <p>
+              &emsp;&emsp;Variável quantitativa: é uma variável que assume como possíveis valores, números.
+            </p>
+            <p>
+              &emsp;&emsp;Variável qualitativa nominal: é uma variável que assume como possíveis valores, atributos ou qualidades e estes não apresentam uma ordem natural de ocorrência.
+            </p>
+          </div>
+        </div>
+        <div class="imgs-cd-2">
+          <div class="div-sample">
+            <p>Amostragem</p>
+            <img class="img-cd-2" src="/imgs/ciencia-dados/samples.jpg">
+            <li>Amostragem Aleatória</li>
+            <li>Amostragem Estratificada</li>
+            <li>Amostragem Sistemática</li>
+            <li>Amostragem em Cluster</li>
+          </div>
+          <div class="div-scale">
+            <p>Escalas de Medição</p>
+            <img class="img-cd-2" src="/imgs/ciencia-dados/scales.jpg">
+            <p>Tipos de Escala</p>
+            <div class="div-scale-2">
+              <div class="div-quali">
+                <p>Qualitativa</p>
+                  <li>Nominal</li>
+                  <li>Ordinal</li>
+              </div>
+              <div class="div-quant">
+                <p>Quantitativa</p>
+                <li>Intervalar</li>
+                <li>Razão</li>
+              </div>
+            </div>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="div-tendence">
+            <p>Tendência Central</p>
+            <img class="img-cd-2" src="/imgs/ciencia-dados/Avarage.jpg">
+            <li>Média</li>
+            <li>Moda</li>
+            <li>Mediana</li>
+            <li>Percentil</li>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-calc">
+        <div class="title-calc"><p>CÁLCULO</p></div>
+        <div class="div-content-calc">
+          <div class="div-img-calc">
+            <img class="img-calc" src="/imgs/ciencia-dados/calc-1.png" alt="">
+          </div>
+          <div class="div-text-calc">
+            <p class="titles-cd">Google Colab e Python</p>
+            <p>
+              Nossa jornada do primeiro semestre acaba com uma das matérias mais "amadas" de todas as universidades, o cálculo. Começamos com os conceitos de medidas de dispersão, amplitude e variância, em conjunto a isso conhecemos uma plataforma e uma linguagem nova: Google Colab e Python.
+            </p>
+            <p>
+              Com parte da sintaxe aprendida tanto de python, quanto das suas bibliotecas com a Pandas e a Numpy, demos inicio aos trabalhos e realizamos de "tudo" com a junção dessas duas ferramentas, sendo assim, aprendemos a plotar gráficos, linhas, pontos e desvios padrões.
+            </p>
+            <p>
+              Além disso, enfrentamos o desafio de desenvolver um código capaz de calcular a probabilidade de obter cara ou coroa em um lançamento de moeda. Para alcançar esse objetivo, contamos com uma fórmula disponibilizada para nós. Após essa etapa, adquirimos conhecimentos sobre regressão logística e aplicamos esses conceitos na criação de uma "IA" capaz de identificar pontos em um gráfico. Quando esses pontos se alinhavam acima de uma reta, eram destacados em vermelho; caso contrário, eram destacados em azul.
+            </p>
+          </div>
+        </div>
+        <div class="div-content-calc">
+          <div class="div-text-calc">
+            <p class="titles-cd">Funções, Limites, Derivadas e Integrais</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima odit fugiat aperiam fuga, voluptatem quae, dolorum neque numquam animi facere voluptates reiciendis molestias impedit alias harum fugit at rerum. Quidem?
+            Sint nostrum magni architecto ab ipsa magnam? Quas incidunt praesentium repellat beatae dolor nihil deleniti minus. Nisi magni laudantium facere ad quaerat beatae quidem ut deserunt rerum corporis! Optio, facere?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, placeat error quae perferendis optio dolor eveniet. Aperiam tempora, sint incidunt culpa suscipit enim repudiandae dicta voluptatibus officia, recusandae nostrum voluptatem.
+            Dolor beatae numquam saepe.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis natus possimus ratione dignissimos quis voluptatem odio harum dolor dolorem asperiores laudantium consequuntur vero corporis, optio officiis eos illo ipsam a.</p>
+          </div>
+          <div class="div-img-calc">
+            <img class="img-calc" src="/imgs/ciencia-dados/calc-1.png" alt="">
+          </div>
         </div>
       </div>
     </section>
